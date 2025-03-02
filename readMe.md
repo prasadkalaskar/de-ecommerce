@@ -1,1 +1,1 @@
-
+MyShop Ecommerce is a simulated, enterprise-grade eCommerce application designed to model real-world complexities of online retail platforms. It provides a robust relational database (OLTP) with comprehensive test data to support full-scale data engineering, financial reporting, and invoice management workflows using modern architectures like the Medallion Architecture in Databricks.

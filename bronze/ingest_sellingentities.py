@@ -11,7 +11,7 @@ def run_ingestion():
     df = spark.read.option("header", True).csv(source_path)
     df.write.format("delta").mode("overwrite").save(output_path)
 
-    print(f"✅ Sellingentities ingested and saved to Delta at: {output_path}")
+    print(f"Selling entities ingested and saved to Delta at: {output_path}")
 
 
 if __name__ == "__main__":

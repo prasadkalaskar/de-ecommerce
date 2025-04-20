@@ -13,7 +13,7 @@ def run_ingestion():
     df = df.withColumn("InvoiceMonth", date_format("InvoiceDate", "yyyy-MM"))
     df.write.format("delta").mode("overwrite").save(output_path)
 
-    print(f"✅ Invoice ingested and saved to Delta at: {output_path}")
+    print(f"Invoice ingested and saved to Delta at: {output_path}")
 
 
 if __name__ == "__main__":

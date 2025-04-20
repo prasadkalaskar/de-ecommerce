@@ -1,0 +1,4 @@
+{
+  "raw_data_path": "data/rawzone/2025/01/orders.csv",
+  "bronze_output_path": "data/bronze/orders"
+}

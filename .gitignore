@@ -1,0 +1,29 @@
+# Python virtual environment and artifacts
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Spark/Delta/Hadoop temp and checksum files
+*/_delta_log/
+*/.spark-staging/
+*.parquet.crc
+*.crc
+*.tmp
+
+# IDE or editor-specific files
+.idea/
+.vscode/
+*.iml
+
+# OS/system-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Optional: ignore generated data layers (uncomment if not versioning raw/bronze/silver)
+# data/rawzone/
+# data/bronze/
+# data/silver/

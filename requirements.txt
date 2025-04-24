@@ -1,2 +1,5 @@
-pyspark
+pyspark~=3.5.5
 delta-spark
+pandas~=2.2.3
+pyarrow~=19.0.1
+matplotlib~=3.10.1
